@@ -16,7 +16,7 @@
         "minItems": 2,
         "maxItems": 2,
         "items": {
-            {"type": "integer"}
+            "type": "integer"
         }
       },
       "range_number": {
@@ -26,18 +26,13 @@
         "minItems": 2,
         "maxItems": 2,
         "items": {
-            {"type": "number"}
+            "type": "number"
         }
       },
-      "step": {
+      "step_integer": {
         "description": "Step value across the defined range",
         "readOnly": true,
-        "anyOf": [
-          {"type": "integer"},
-          {"type": "number"}
-        ]
-      }
-
+        "type": "integer"
     }
   }
 }
