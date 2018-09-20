@@ -4,6 +4,18 @@
   "description" : "Copyright (c) 2016, 2017 Open Connectivity Foundation, Inc. All rights reserved.",
   "title": "Base Resource",
   "definitions": {
+     "n": {
+          "type": "string",
+          "maxLength": 64,
+          "readOnly": true,
+          "description": "Friendly name of the resource"
+        },
+        "id": {
+          "type": "string",
+          "maxLength": 64,
+          "readOnly": true,
+          "description": "Instance ID of this specific resource"
+        },
       "precision":  {
         "type": "number",
         "readOnly": true,
