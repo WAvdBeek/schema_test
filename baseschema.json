@@ -23,7 +23,7 @@
       },
       "range_integer": {
         "type": "array",
-        "description": "The valid range for the value Property",
+        "description": "The valid range for the value Property in integer",
         "readOnly": true,
         "minItems": 2,
         "maxItems": 2,
@@ -33,7 +33,7 @@
       },
       "range_number": {
         "type": "array",
-        "description": "The valid range for the value Property",
+        "description": "The valid range for the value Property in numbers",
         "readOnly": true,
         "minItems": 2,
         "maxItems": 2,
@@ -45,6 +45,11 @@
         "description": "Step value across the defined range",
         "readOnly": true,
         "type": "integer"
+      },
+      "step_number": {
+        "description": "Step value across the defined range",
+        "readOnly": true,
+        "type": "number"
     }
   }
 }
